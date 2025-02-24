@@ -5,7 +5,7 @@ import './floating-nav.css';
 
 function FloatingNav() {
   return (
-    <ul id="floating__nav">
+    <ul id="floating__nav" >
       <Scrollspy offset={-400} className='scrollspy' items={['header', 'about', 'services',
         'portfolio', 'contact']}
         currentClassName="active">
