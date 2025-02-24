@@ -1,5 +1,4 @@
 import AbautImage from '../../assets/about.jpg'
-import CV from '../../assets/cv.pdf'
 import { HiDownload } from 'react-icons/hi';
 import Card from '../../components/Card';
 import data from './data';
@@ -37,7 +36,7 @@ const About = () => {
             Get in touch today with the details of your project,
             let's get started! Check out my resume below!
           </p>
-          <a href={CV} download className='btn primary'>Download CV<HiDownload /></a>
+          <a href="/cv.pdf" download className='btn primary'>Download CV<HiDownload /></a>
         </div>
       </div>
 
