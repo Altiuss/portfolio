@@ -36,7 +36,7 @@ const About = () => {
             Get in touch today with the details of your project,
             let's get started! Check out my resume below!
           </p>
-          <a href="/cv.pdf" download className='btn primary'>Download CV<HiDownload /></a>
+          <a href={`${process.env.PUBLIC_URL}/cv.pdf`} download className='btn primary'>Download CV<HiDownload /></a>
         </div>
       </div>
 
